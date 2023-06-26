@@ -1,0 +1,31 @@
+{
+  "name": "t10ln",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon ./api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiprianoPrince/t10ln.git"
+  },
+  "keywords": [],
+  "author": "Princeton Jude Cipriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiprianoPrince/t10ln/issues"
+  },
+  "homepage": "https://github.com/CiprianoPrince/t10ln#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

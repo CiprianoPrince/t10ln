@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/main.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../src/css/animate.min.css" />
+		<link rel="stylesheet" href="../src/css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="../src/css/scrollbar.min.css" />
+		<link rel="stylesheet" href="../src/css/style.css" />
+
+		<script defer src="../src/js/swiper/swiper-bundle.min.js"></script>
+		<script defer src="../src/js/bootstrap/bootstrap.bundle.min.js"></script>
+		<script defer src="./main.js" type="module"></script>
+		<title>T10LN</title>
+	</head>
+
+
+	<body class="">
+
+		<!-- fix sticky navigation  -->
+		<header class="container-fluid vh-10 sticky-top z-3 border border-3 border-bottom bg-grayishwhite" id="home">
+			<nav class="navbar navbar-expand-xxl w-100">
+				<div class="container-fluid p-3">
+					<!-- logo -->
+					<a class="navbar-brand text-dark aa fadeIn aa_s" href="../"><img src="../src/assets/logo.png" alt=""
+							class="bg-transparent mw-9"></a>
+
+					<!-- hamburger menu -->
+					<button class="navbar-toggler text-dark aa fadeIn aa_s" type="button" data-bs-toggle="collapse"
+						data-bs-target="#nav-buttons-links" aria-controls="nav-buttons-links" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse row text-dark" id="nav-buttons-links">
+						<!-- nav links -->
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Categories</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Action</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adult</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adventure</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Comedy</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Drama</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Rankings</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="./japan.html">Japan</a></li>
+									<li><a class="dropdown-item" href="./korea.html">Korea</a></li>
+									<li><a class="dropdown-item" href="./china.html">China</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Community</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Quotes</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Top ten Collections</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Library</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!-- search input -->
+						<!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+						<!-- fix Sign up button -->
+						<!-- <a href="#" class="btn btn-outline-success navbar-brand text-success border-2">Sign up</a> -->
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!--TODO Top selling books section  -->
+			<section
+				class="container-fluid d-flex justify-content-center align-items-start g-5 fade-In fadeIn aa aa_s aa_d-1s">
+				<!-- All time title -->
+				<div class="container my-5">
+					<div class="row bg-grayishwhite text-dark p-4">
+						<div class="col-12">
+							<h2 class="ff-playfair fs-2point25 fs-md-2point50 fs-lg-4">China's Best Selling Light Novel</h2>
+
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb fw-bold ">
+									<li class="breadcrumb-item"><a class="text-secondary text-decoration-none"
+											href="../Index.html">Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page"><a
+											class="text-secondary text-decoration-underline" href="">Best Selling in China</a></li>
+								</ol>
+							</nav>
+						</div>
+
+						<hr />
+
+						<div id="novels_list" class="col-12">
+							<div class="row">
+								<div id="" class="col-12">
+									<!-- data result -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/3b1cb7753ed791a3ce0d41507550a265.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Demon’s Diary</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Liu Ming, since he was young, lived in a savage prison
+														named Savage Island where the prisoners aren’t controlled by any
+														guard or security. When the island sinks due to “mysterious” events, only a handful of
+														people survive – those survivors
+														are then pursued by the government.
+
+														On the other hand at another place, two practitioners are worrying about what will happen to
+														them because the young
+														master that they were supposed to protect had died.
+
+														Their young master just so happens to look nearly like our hero…
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/682ded73b66c1784b359b127a56860ff.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Terror Infinity</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">“Want to know the meaning of life? Want to live… a real
+														life?” The world changes when you click YES. In God’s dimension,
+														you have to keep getting stronger, keep evolving to survive one horror movie after another.
+														Do you kill everyone in your
+														way to reach the end as a lone king? Or fight along with your comrades and survive through
+														the support of friends?
+														Everything was just for staying alive. Until you find the secret of God’s dimension. Who is
+														the real enemy?
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/696bb0b46d587494970dcc8757494e05.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Martial God Space</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Ye Xiwen was previously only an ordinary university
+														student on Earth, but he unexpectedly transmigrated into the world
+														known as True Martial Domain!
+
+														In this world, formidable warriors were capable of terraforming and destroying the world!
+
+														He originally had an ordinary aptitude. However, with his mysterious space, any martial art
+														can be analyzed within the
+														mysterious space! He could attain what took others decades to cultivate in a year! So long
+														as he has enough elixirs. Any
+														geniuses and talents were merely jokes in front of him!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/ed4cbf7eee765c226e74e225c298cee1.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The King’s Avatar</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">In the online game Glory, Ye Xiu is regarded as a
+														textbook and a top-tier pro-player. However, due to a myriad reasons,
+														he is kicked from the team. After leaving the professional scene, he finds work in an
+														Internet Cafe as a manager. When
+														Glory launches its tenth server, he who possesses ten years of gaming experience once again
+														throws himself into the
+														game. Bringing with him the memories of his past and an incomplete, self-made weapon, his
+														return along the road to the
+														summit begins!
+
+														After fighting and scheming, who snatched away my glory? Under the tossing of the wind and
+														rain, my dreams shall still
+														appear as though they had never been shattered. In all its splendor, the path shall never be
+														lost. Before the gazes of
+														millions, this is where I return!
+
+														*Under the Gaming category, The King’s Avatar received the title for Best Work in 2013 and
+														is the first and only 1000
+														Pledged Work (千盟作品). It has 23 million hits on Qidian and has the 2nd most recommendations
+														in its category with 4.6
+														million recommendations.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/69d04270f5f811d00f0a76bfe283dce7.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Coiling Dragon</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Empires rise and fall on the Yulan Continent. Saints,
+														immortal beings of unimaginable power, battle using spells and
+														swords, leaving swathes of destruction in their wake. Magical beasts rule the mountains,
+														where the brave – or the
+														foolish – go to test their strength. Even the mighty can fall, feasted on by those stronger.
+														The strong live like
+														royalty; the weak strive to survive another day.
+
+														This is the world which Linley is born into. Raised in the small town of Wushan, Linley is a
+														scion of the Baruch clan,
+														the clan of the once-legendary Dragonblood Warriors. Their fame once shook the world, but
+														the clan is now so decrepit
+														that even the heirlooms of the clan have been sold off. Tasked with reclaiming the lost
+														glory of his clan, Linley will
+														go through countless trials and tribulations, making powerful friends but also deadly
+														enemies.
+
+														Come witness a new legend in the making. The legend of Linley Baruch!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/b63b44fd82857a1186d29287b82697fa.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Cult of the Sacred Runes</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">The formless ancient world was infested with despicable
+														demons. They hunted and feasted on mankind, keeping the human
+														civilization constantly in a weak and suppressed state.
+
+														During the first known year, a magical mountain descended into the world from the realm of
+														the Gods. Carved on this
+														enormous mountain was a message: ‘Heaven Prevails’…
+
+														After the Grand Descent, a name that was given to the descending of the mountain, the Three
+														Great Sages made their ways
+														to Mystic Mountain where they learned to harvest what we now call magic, establishing the
+														Mystic Cults and eighty-one
+														sacred shrines to help aid mankind with the cult’s mystic powers against the eternal fight
+														to the death with demons.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/5628954b8b8d9619048fd7c47af94aa5.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">I Shall Seal the Heavens</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">“What I want, the Heavens shall not lack!”
+
+														“What I don’t want, had better not exist under the Heavens!”
+
+														This is a story that originates between the Eighth and Ninth Mountains, the world in which
+														the strong prey upon the
+														weak.
+
+														“My Name is Meng Hao! The Ninth Generation Demon Sealer, I shall seal the Heavens!”
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/6eff5963553f66d19535fb25a16c9095	.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Martial God Asura</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">One night a mysterious and unexplained phenomenon
+														occurs in the nine provinces. Five years later Chu Feng, a regular
+														outer disciple of the Azure Dragon school, awakens one of the mysterious nine lightning
+														beasts. And discovers an egg
+														sealed inside him.
+
+														From there we follow Chu Feng on his path of cultivation.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-cente">
+											<img src="../src/data/uploads/best-selling-china/d26b8a3dc7e328065206834a5d05c02c.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Tales of Demons and Gods</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Killed by a Sage Emperor and reborn as his 13 year old
+														self, Nie Li was given a second chance at life. A second chance
+														to change everything and save his loved ones and his beloved city. He shall once again
+														battle with the Sage Emperor to
+														avenge his death and those of his beloved. With the vast knowledge of hundred years of life
+														he accumulated in his
+														previous life, wielding the strongest demon spirits, he shall reach the pinnacle of Martial
+														Arts.
+
+														Enmities of the past will be settled in this new lifetime. “Since I’m back, then in this
+														lifetime, I shall become the
+														King of the Gods that dominate everything. Let everything else tremble beneath my feet!”
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<!-- TODO footer -->
+		<footer class="container-fluid mh-20 bg-grayishwhite border border-bottom-5">
+			<div class="row mh-20 justify-content-center align-items-center">
+				<div class="col-auto">
+					<h6 class="fw-bolder fs-1 fs-lg-1point25 text-center">
+						<span class="d-block mb-2">find an issue with this page? Fix it on <a class="text-dark"
+								href="https://github.com/CiprianoPrince/t10ln">GitHub</a></span>
+						<span class="d-block mb-2">Need help? Email <em>cipriano@mail.com</em></span>
+						<span class="d-block mb-2">Courses | Labs | Snippets | Tags | Contrib | Privacy | Terms</span>
+						<span class="d-block mb-2">Copyright &copy; 2023 Prince</span>
+					</h6>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

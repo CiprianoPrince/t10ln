@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/animate.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/scrollbar.min.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <script defer src="./src/js/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./src/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script defer src="./main.js" type="module"></script>
+    <title>T10LN</title>
+  </head>
+
+
+  <body class="overflow-x-hidden">
+
+    <!-- fix sticky navigation  -->
+    <header class="container-fluid sticky-top vh-10 z-3 border border-3 border-bottom bg-grayishwhite" id="home">
+      <nav class="navbar navbar-expand-xxl w-100">
+        <div class="container-fluid p-3">
+          <!-- logo -->
+          <a class="navbar-brand text-dark aa fadeIn aa_s" href="../Index.html"><img src="./src/assets/logo.png" alt=""
+              class="bg-transparent mw-9"></a>
+
+          <!-- hamburger menu -->
+          <button class="navbar-toggler text-dark aa fadeIn aa_s" type="button" data-bs-toggle="collapse"
+            data-bs-target="#nav-buttons-links" aria-controls="nav-buttons-links" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse row text-dark" id="nav-buttons-links">
+            <!-- nav links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+              <li class="nav-item dropdown aa fadeIn aa_s">
+                <a class="nav-link text-dark fs-lg-1point50" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Categories</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./fallback.html">Action</a></li>
+                  <li><a class="dropdown-item" href="./fallback.html">Adult</a></li>
+                  <li><a class="dropdown-item" href="./fallback.html">Adventure</a></li>
+                  <li><a class="dropdown-item" href="./fallback.html">Comedy</a></li>
+                  <li><a class="dropdown-item" href="./fallback.html">Drama</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Ecchi</a></li>
+                  <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                  <li><a class="dropdown-item" href="#">Harem</a></li>
+                  <li><a class="dropdown-item" href="#">Historical</a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><a class="dropdown-item" href="#">Josei</a></li>
+                  <li><a class="dropdown-item" href="#">Martial Arts</a></li>
+                  <li><a class="dropdown-item" href="#">Mature</a></li>
+                  <li><a class="dropdown-item" href="#">Mecha</a></li>
+                  <li><a class="dropdown-item" href="#">Mystery</a></li>
+                  <li><a class="dropdown-item" href="#">Psychological</a></li>
+                  <li><a class="dropdown-item" href="#">School Life</a></li>
+                  <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                  <li><a class="dropdown-item" href="#">Seinen</a></li>
+                  <li><a class="dropdown-item" href="#">Shoujo</a></li>
+                  <li><a class="dropdown-item" href="#">Shoujo Ai</a></li>
+                  <li><a class="dropdown-item" href="#">Shounen</a></li>
+                  <li><a class="dropdown-item" href="#">Shounen Ai</a></li>
+                  <li><a class="dropdown-item" href="#">Slice of Life</a></li>
+                  <li><a class="dropdown-item" href="#">Smut</a></li>
+                  <li><a class="dropdown-item" href="#">Sports</a></li>
+                  <li><a class="dropdown-item" href="#">Supernatural</a></li>
+                  <li><a class="dropdown-item" href="#">Tragedy</a></li>
+                  <li><a class="dropdown-item" href="#">Wuxia</a></li>
+                  <li><a class="dropdown-item" href="#">Xianxia</a></li>
+                  <li><a class="dropdown-item" href="#">Xuanhuan</a></li>
+                  <li><a class="dropdown-item" href="#">Yaoi</a></li>
+                  <li><a class="dropdown-item" href="#">Yuri</a></li> -->
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown aa fadeIn aa_s">
+                <a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Rankings</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./novels/japan.html?genre=action">Japanese</a></li>
+                  <li><a class="dropdown-item" href="#">Korean</a></li>
+                  <li><a class="dropdown-item" href="#">Chinese</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown aa fadeIn aa_s">
+                <a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Community</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./fallback.html">Quotes</a></li>
+                  <li><a class="dropdown-item" href="./fallback.html">Top ten Collections</a></li>
+                  <li><a class="dropdown-item" href="./fallback.html">Library</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- search input -->
+            <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            <!-- fix Sign up button -->
+            <!-- <a href="#" class="btn btn-outline-success navbar-brand text-success border-2">Sign up</a> -->
+          </div>
+
+          <div class="navbar-brand text-dark mw-9 aa fadeIn aa_s" href="#"><img src="" alt=""
+              class="bg-transparent mw-9"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="position-relative">
+      <!-- hero section -->
+      <section class="container-fluid vh-90 bg-grayishwhite">
+        <div class="row vh-100 align-content-center align-content-lg-center">
+          <!-- hero -->
+          <div class="col-lg-6 d-lg-flex flex-column justify-content-lg-center align-items-lg-center">
+            <div class="mw-sm-45 mw-lg-50">
+              <!-- hero title -->
+              <h1
+                class="ff-robotoSlab fs-3 fs-md-3point50 fs-lg-4 fs-xl-4point75 fs-xxl-5 fw-bolder fadeIn aa aa_ser aa_d-1s">
+                <span class="d-block">A WRITER ONLY</span><span class="d-lg-block">BEGINS A BOOK.</span>
+                <span class="d-lg-block">A READER</span>
+                <span class="d-lg-block">FINISHED IT.</span>
+              </h1>
+
+              <!-- hero text -->
+              <p class="fs-lg-1point25 fadeInUp aa aa_s">
+                <span class="fw-bold text-decoration-underline">Not sure what to read next?</span>
+                Explore our library full of top light novel collected carefully by the webmaster.
+              </p>
+
+              <!-- hero button -->
+              <button class="btn btn-success border-3 fw-bold fadeInUp aa aa_s">
+                Explore now
+                <i class="bi bi-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- hero image -->
+          <div class="col-lg-6 d-flex flex-column align-items-center mt-5 mt-md-4 mt-lg-0">
+            <div class="mw-20 mw-md-22 mw-lg-25 mw-xl-27 fadeInRight aa aa_ser">
+              <picture>
+                <source srcset="./src/data/img/hero-image.webp" />
+                <img class="img-fluid mb-1" src="./src/assets/fallback-image.jpg" alt="" />
+              </picture>
+              <h5 class="fw-bold mb-1">Circle of Inevitability</h5>
+              <p class="lead fs-1 mb-1">Cuttlefish that likes diving</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Best of all time -->
+      <section class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <!-- Slider main container -->
+        <div class="row mw-100 mh-45">
+          <div class="col-12 text-center fade-In aa aa_s aa_d-1s">
+            <h2 class="ff-playfair fs-3 fs-lg-4">Best of All Time</h2>
+          </div>
+
+          <div class="col-12 fade-InUp aa aa_s">
+            <div class="slide-container swiper mw-26 mw-sm-33 mw-md-44 mw-lg-60 mw-xl-65 mw-xxl-80">
+              <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/fda2e307051b2999609a0de2396a6eaa.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">Emperor's Domination</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/073e1db7b8a5b7a1b56fb1fdd2a7c826.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">Martial World</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/d891d8c2cbebc5ea84a000c441a49dfb.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">Sovereign of the Three Realmse</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/ed4cbf7eee765c226e74e225c298cee1.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">Against the Gods</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/979b37667500cd67fd93e64fa794bd19.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">The Desolate Era</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/89c127fa18f80215178151d466b47466.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">Release that Witch</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/57b34224353c38f49a77f8185a10e744.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">Warlock of the Magus World</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/604f692b53829c98d4592c2b73d07f43.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">A Will Eternal</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/BestOfAll/5628954b8b8d9619048fd7c47af94aa5.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-truncate fw-bold">I Shall Seal the Heavens</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary m-0">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--TODO Top selling books section  -->
+      <section class="container">
+        <!-- All time title -->
+        <div class="row bg-grayishwhite text-dark p-4">
+          <div class="col-12">
+            <h2 class="ff-playfair fs-2point25 fs-md-2point50 fs-lg-4 fade-In aa aa_s">Top Selling Light Novels</h2>
+            <hr />
+          </div>
+
+          <div class="col-12">
+            <div class="row">
+
+              <!-- japan columnn -->
+              <div class="col-lg-4 fade-In aa aa_s">
+
+                <div class="row fade-In aa aa_s">
+                  <div class="col-12">
+                    <h6 class="ff-playfair fs-1point75 fs-md-2 fs-lg-3">Japan</h6>
+                  </div>
+                </div>
+
+                <div class="row fade-In aa aa_s aa_d-1s" title="The Angel Next Door Spoils Me Rotten">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="./src//data/uploads/best-selling-japan/cda6db09edd787ee0cc7dd960281c8db.jpeg" alt=""
+                          class="img-fluid img-thumbnail">
+                      </div>
+
+                      <div class="col-8 ">
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="fw-bold text-truncate mb-0">The Angel Next Door Spoils Me Rotten</p>
+                            <p class="lead fs-1 text-truncate mb-1">Romance</p>
+                          </div>
+
+                          <div class="col-12">
+                            <p class="line-clamp-4 text-secondary">Amane lives alone in an apartment, and the most
+                              beautiful
+                              girl in school, Mahiru, lives just next door. They've almost
+                              never spoken—until the day he sees her in distress on a rainy day and lends her his
+                              umbrella.
+                              To return the favor, she
+                              offers him help around the house, and a relationship slowly begins to blossom as the
+                              distance
+                              between them closes.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row fade-In aa aa_s aa_d-1s" title="Suzume no Tojimari">
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="./src//data/uploads/best-selling-japan/61144d64a5a6821dbadc0047ec563bd2.jpeg" alt=""
+                            class="img-fluid img-thumbnail">
+
+                        </div>
+
+                        <div class="col-8 ">
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="fw-bold text-truncate mb-0">Suzume no Tojimari</p>
+                              <p class="lead fs-1 text-truncate mb-1">Fantasy</p>
+                            </div>
+                            <div class="col-12">
+                              <p class="line-clamp-4 text-secondary">Suzume is a normal high school girl living with her
+                                aunt in southern Japan. One day, she meets Souta, a young man looking for ruins in the
+                                area.
+                                Intrigued, she follows after him and finds a freestanding door in the ruins of a hot
+                                springs
+                                resort. But when she opens the door, she sees another world—one which eldritch,
+                                disaster-causing forces are all too eager to escape from. Yet, no sooner is the door
+                                closed
+                                then things get worse. Souta finds himself turned into a chair by a talking cat named
+                                Daijin—meaning it's now up to Suzume to travel across Japan, closing doors and
+                                preventing
+                                disasters as they chase Daijin to get Souta his body back</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row fade-In aa aa_s aa_d-1s" title="Blue Lock">
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="./src//data/uploads/best-selling-japan/2fb892e097a366891f3a3511698eae29.jpeg" alt=""
+                            class="img-fluid img-thumbnail">
+
+                        </div>
+                        <div class="col-8 ">
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="fw-bold text-truncate mb-0">Blue Lock</p>
+                              <p class="lead fs-1 text-truncate mb-1">Sports</p>
+                            </div>
+                            <p class="line-clamp-4 text-secondary">After failing to win the World Cup, there's unrest in
+                              the Japanese Soccer community. Many of the older patrons of the
+                              sport aren't too disturbed by the lack of trophies, but newcomer Anri Teiri is furious –
+                              and
+                              she's determined to fix
+                              what she sees as the problem with Japanese players. To that end she hires maverick trainer
+                              Jinpachi Ego, who devises a
+                              strange yet rigorous plan: he takes the three hundred best young soccer players in the
+                              country, sends them to a
+                              state-of-the-art training facility, and whittles them down until he has the absolute best
+                              striker in the nation. Yoichi
+                              Isagi is one of the boys chosen for the camp. He may be number 299 out of 300, but nothing
+                              –
+                              and no one – is going to
+                              stand in his way of coming out on top.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="./novels/best-selling-japan.html" class="btn btn-outline-success btn-sm fw-bold border-2">See
+                  more...</a>
+              </div>
+
+              <!-- korea columnn -->
+              <div class="col-lg-4 fade-In aa aa_s">
+
+                <div class="rowfade-In aa aa_s">
+                  <div class="col-12">
+                    <h6 class="ff-playfair fs-1point75 fs-md-2 fs-lg-3">Korea</h6>
+                  </div>
+                </div>
+
+                <div class="row fade-In aa aa_s aa_d-1s">
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="./src//data/uploads/best-selling-korea/2ee865c7ba760bbfe3cd91ada6820ab8.png" alt=""
+                            class="img-fluid img-thumbnail">
+
+                        </div>
+                        <div class="col-8 ">
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="fw-bold text-truncate mb-0">The Legendary Moonlight Sculptor</p>
+                              <p class="lead fs-1 text-truncate mb-1">Action</p>
+                            </div>
+                            <div class="col-12">
+                              <p class="line-clamp-4 text-secondary">The man forsaken by the world, the man a s*ave to
+                                money
+                                and the man known as the legendary God of War in the highly
+                                popular MMORPG Continent of Magic. With the coming of age, he decides to say goodbye,
+                                but
+                                the feeble attempt to earn a
+                                little something for his time and effort ripples into an effect none could ever have
+                                imagined.
+                                Through a series of coincidences, his legendary avatar is sold for 3 billion won,
+                                bringing
+                                great joy to him, only to
+                                plunge him into despair at losing almost all of it to vicious loan sharks. With
+                                revelation
+                                of money through gaming, he
+                                rises from the abyss with new found resolve and steps forward into the new age of games
+                                led
+                                by the first ever Virtual
+                                Reality MMORPG, Royal Road.
+                                This is the legend of Lee Hyun on his path to becoming Emperor with only his family’s
+                                loving
+                                heart, his boundless desire
+                                for money, his unexpected mind, his diligently forged body and the talent of hard work
+                                backing him.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row fade-In aa aa_s aa_d-1s">
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="./src//data/uploads/best-selling-korea/39144ac43ebf5063e585c5fe867ef42d.jpeg" alt=""
+                            class="img-fluid img-thumbnail">
+
+                        </div>
+                        <div class="col-8">
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="fw-bold text-truncate mb-0">Solo Leveling</p>
+                              <p class="lead fs-1 text-truncate mb-1">Action</p>
+                            </div>
+                            <div class="col-12">
+                              <p class="line-clamp-4 text-secondary">0 years ago, after “the Gate” that connected the
+                                real
+                                world with the monster world opened, some of the ordinary,
+                                everyday people received the power to hunt monsters within the Gate. They are known as
+                                “Hunters”.
+                                However, not all Hunters are powerful. My name is Sung Jin-Woo, an E-rank Hunter. I’m
+                                someone who has to risk his life
+                                in the lowliest of catacombs, the “World’s Weakest”.
+                                Having no skills whatsoever to display, I barely earned the required money by fighting
+                                in
+                                low-leveled catacombs… at
+                                least until I found a hidden catacomb with the hardest difficulty within the D-rank
+                                catacombs!
+                                In the end, as I was accepting death, I suddenly received a strange power, a quest log
+                                that
+                                only I could see, a secret
+                                to leveling up that only I know about! If I trained in accordance with my quests and
+                                hunted
+                                monsters, my level would
+                                rise.
+                                Changing from the weakest Hunter to the strongest S-rank Hunter!
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row fade-In aa aa_s aa_d-1s">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="./src//data/uploads/best-selling-korea/2b2d63c114a8c9e2d6c438e59419bcef.png" alt=""
+                          class="img-fluid img-thumbnail">
+
+                      </div>
+                      <div class="col-8">
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="fw-bold text-truncate mb-0">Dungeon Defense</p>
+                            <p class="lead fs-1 text-truncate mb-1">Acttion</p>
+                          </div>
+                          <div class="col-12">
+                            <p class="line-clamp-4 text-secondary">Do you know how this world ends?
+                              Become the hero and defeat the 72 Demon Lords. The game that was boasted as the absolute
+                              hardest strategy game, 『Dungeon
+                              Attack』.
+                              I used to be the ‘hero’ that had accomplished everything in this game, but after answering
+                              a
+                              suspicious survey, I found
+                              myself in the game as the weakest Demon Lord, 「Dantalian」.
+                              With only my eloquent tongue and my memories of conquest as a hero—.
+                              In order to survive as Dantalian. I shall tear this world apart.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="./novels/best-selling-korea.html" class="btn btn-outline-success btn-sm fw-bold border-2">See
+                  more...</a>
+              </div>
+
+              <!-- china columnn -->
+              <div class="col-lg-4 fade-In aa aa_s">
+
+                <div class="rowfade-In aa aa_s">
+                  <div class="col-12">
+                    <h6 class="ff-playfair fs-1point75 fs-md-2 fs-lg-3">China</h6>
+                  </div>
+                </div>
+
+                <div class="row fade-In aa aa_s aa_d-1s" title="Demon’s Diary">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="./src//data/uploads/best-selling-china/3b1cb7753ed791a3ce0d41507550a265.jpeg" alt=""
+                          class="img-fluid img-thumbnail">
+
+                      </div>
+                      <div class="col-8 ">
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="fw-bold text-truncate mb-0">Demon’s Diary</p>
+                            <p class="lead fs-1 text-truncate mb-1">Action</p>
+                          </div>
+                          <div class="col-12">
+                            <p class="line-clamp-4 text-secondary">Liu Ming, since he was young, lived in a savage
+                              prison
+                              named Savage Island where the prisoners aren’t controlled by any
+                              guard or security. When the island sinks due to “mysterious” events, only a handful of
+                              people
+                              survive – those survivors
+                              are then pursued by the government.
+                              On the other hand at another place, two practitioners are worrying about what will happen
+                              to
+                              them because the young
+                              master that they were supposed to protect had died.
+                              Their young master just so happens to look nearly like our hero…
+                              What will happen? Where will Liu Ming ends up and what will he do?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row fade-In aa aa_s aa_d-1s" title="Terror Infinity">
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="./src//data/uploads/best-selling-china/682ded73b66c1784b359b127a56860ff.jpeg" alt=""
+                            class="img-fluid img-thumbnail">
+
+                        </div>
+                        <div class="col-8 ">
+                          <div class="row">
+                            <div class="col-12">
+                              <p class="fw-bold text-truncate mb-0">Terror Infinity</p>
+                              <p class="lead fs-1 text-truncate mb-1">Action</p>
+                            </div>
+                            <div class="col-12">
+                              <p class="line-clamp-4 text-secondary">“Want to know the meaning of life? Want to live… a
+                                real
+                                life?” The world changes when you click YES. In God’s dimension,
+                                you have to keep getting stronger, keep evolving to survive one horror movie after
+                                another.
+                                Do you kill everyone in your
+                                way to reach the end as a lone king? Or fight along with your comrades and survive
+                                through
+                                the support of friends?
+                                Everything was just for staying alive. Until you find the secret of God’s dimension. Who
+                                is
+                                the real enemy?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row fade-In aa aa_s aa_d-1s" title="Martial God Space">
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-4">
+                          <img src="./src//data/uploads/best-selling-china/696bb0b46d587494970dcc8757494e05.jpeg" alt=""
+                            class="img-fluid img-thumbnail">
+
+                        </div>
+                        <div class="col-8 ">
+                          <div class="row">
+                            <div class="col-2">
+                              <p class="fw-bold text-truncate mb-0">Martial God Space</p>
+                              <p class="lead fs-1 text-truncate mb-1">Action</p>
+                            </div>
+                            <div class="col-12">
+                              <p class="line-clamp-4 text-secondary">Ye Xiwen was previously only an ordinary university
+                                student on Earth, but he unexpectedly transmigrated into the world
+                                known as True Martial Domain!
+                                In this world, formidable warriors were capable of terraforming and destroying the
+                                world!
+                                He originally had an ordinary aptitude. However, with his mysterious space, any martial
+                                art
+                                can be analyzed within the
+                                mysterious space! He could attain what took others decades to cultivate in a year! So
+                                long
+                                as he has enough elixirs. Any
+                                geniuses and talents were merely jokes in front of him!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <a href="./novels/best-selling-china.html" class="btn btn-outline-success btn-sm fw-bold border-2">See
+                  more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TODO advertisment-->
+      <section class="container-fluid d-flex align-items-center mh-40 ">
+        <div class="row mh-25 vw-100 bg-grayishwhite">
+          <div class="col-md-6 d-flex justify-content-center align-items-center fade-In aa aa_s aa_d-1s">
+            <div class="div">
+              <h5 class="ff-playfair fs-2 fs-md-1point50 fs-lg-2point50"><span class="d-block">Everyone has a Top
+                  10,</span> <span>And you can have one too.</span></h5>
+              <p class="text-secondary fw-bold">Find out eveyone's Top 10 and create your own.</p>
+              <a href="./fallback.html" class="btn btn-success fw-bold">Browse collection<i
+                  class="bi bi-search-heart ms-2"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-center align-items-center fade-In aa aa_s aa_d-1s">
+            <div>
+              <img src="./src/assets/books.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--TODO more books  -->
+      <section class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <!-- Slider main container -->
+        <div class="row mw-100 mh-45">
+          <div class="col-12 text-center fade-In aa aa_s aa_d-1s">
+            <h2 class="ff-playfair fs-3 fs-lg-4">More Light Novels</h2>
+          </div>
+
+          <div class="col-12 fade-InUp aa aa_s">
+            <div class="slide-container swiper mw-26 mw-sm-33 mw-md-44 mw-lg-60 mw-xl-65 mw-xxl-80">
+              <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/e26c6be999ffdc6d63369ad9c99ff04f.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">World of Cultivation</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/964fdacb0df33a92cf59b37a025eea33.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">True Martial World</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/97d51e6814c5a6d2f7d1e09bcd18f8d8.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">Library of Heaven’s Path</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/73bf6e1d1fc3f8c0c18556120ecbb8e0.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">I’m Really a Superstar</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Action</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/6eff5963553f66d19535fb25a16c9095.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">Martial God Asura</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/cb7ac6824d18b1ff3f4fd0de9f2cf473.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">Trash of the Count’s Family</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/151e648e04799e3fddf8555b3c027cf5.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">The Death Mage Who Doesn’t Want a Fourth Time</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/15e8cee10d69b2fbf377ce64f36b053e.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">Rebirth of the Thief Who Roamed The World</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/1813e2220473481b58f803c5327b822f.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">Everyone Else is a Returnee</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card swiper-slide border border-0 mw-15 mw-lg-17 mh-30">
+                    <div class="card">
+                      <div class="card-header p-5 bg-bookbackground">
+                        <img src="./src/data/uploads/other-books/85cce24269f47cdf7a7b4c51d57e5ae4.jpeg" alt=""
+                          class="card-img shadow-book" />
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold text-truncate">Genius Doctor: Black Belly Miss</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="card-text text-truncate fw-bold text-secondary">Fantasy</p>
+                          <a href="" class="text-success text-decoration-none fw-bold fs-1 text-decoration-underline"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">view
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TODO direct message to the moderator   -->
+      <section class="container-fluid mh-50 bg-grayishwhite">
+        <div class="row mh-40 w-lg-100 w-xxl-85 bg-success border rounded-2 shadow">
+          <div class="col-lg-6 d-flex justify-content-center align-items-center fade-In aa aa_s aa_d-1s">
+            <div class="div mw-lg-27 ">
+              <h5 class="ff-playfair text-light fs-1point75 fs-md-2point50 fs-lg-3">
+                <span class="d-lg-block">If you have question, </span>
+                <span class="d-lg-block">have a suggestion,</span>
+                <span class="d-block">or just want to leave a feedback.</span>
+              </h5>
+            </div>
+          </div>
+
+          <!-- message form -->
+          <div
+            class="col-lg-6 d-lg-flex justify-content-center align-items-center mw-30 mx-auto fade-In aa aa_s aa_d-1s">
+            <div class="div bg-light border rounded-2 shadow p-5">
+              <h5 class="ff-playfair text-dark fs-2 fs-md-1point50 fs-lg-2point50">
+                Send me a message
+              </h5>
+              <form id="feedback-form" action="./fallback.html">
+                <div class="d-flex flex-column">
+                  <div class="mb-3">
+                    <input class="form-control border border-success" type="text" name="messenger_name"
+                      id="messenger_name" placeholder="Enter your name">
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control border border-success" type="text" name="messenger_message"
+                      id="messenger_message" rows="4" placeholder="Write your message"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <input class="btn btn-success w-100" type="submit" value="Send">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Preview modal -->
+      <div class="modal fade modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content mh-40">
+            <div class="modal-header">
+              <h1 class="modal-title ff-playfair fs-2 fs-lg-3 text-truncate" id="exampleModalLabel">Emperor Domination
+              </h1>
+              <button type="button" class="btn-close me-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                    <img src="./src/data/uploads/BestOfAll/fda2e307051b2999609a0de2396a6eaa.jpeg" alt="" class=""
+                      style="height: 90%;">
+                  </div>
+
+                  <div class="col-12 col-lg-6">
+                    <div class="row mb-2">
+                      <div class="col-6 text-truncate">
+                        <h6 class="d-inline">Author:</h6><span class="ms-2 text-secondary">Yan Bi Xiao Sheng</span>
+                      </div>
+
+                      <div class="col-6 text-truncate">
+                        <h6 class="d-inline">Genre:</h6><span class="ms-2 text-secondary">Action</span>
+                      </div>
+                    </div>
+
+
+                    <div class="row mb-2">
+                      <div class="col-6">
+                        <h6 class="d-inline">Publisher:</h6><span class="ms-2 text-secondary">Qidian</span>
+                      </div>
+
+                      <div class="col-6">
+                        <h6 class="d-inline">year:</h6><span class="ms-2 text-secondary">2014</span>
+                      </div>
+                    </div>
+
+                    <div class="row mb-2">
+                      <div class="col-12">
+                        <h6 class="d-inline">Synopsis:</h6>
+                        <p class="text-secondary line-clamp-15">
+                          A boy that was imprisoned for millions of years has regained a mortal body.
+                          He became a disciple of the declining Cleansing Incense Ancient Sect where its patriarch used
+                          to
+                          be his disciple. Now he
+                          will bring this sect back to its former glory.
+                          This is his journey to reach the apex and take revenge on those who had imprisoned him.
+                          This is his story of meeting old friends and making new companions.
+                          This is his path of traversing the Nine Worlds and becoming the next ruler of the Heavens.
+                          Several millennia have passed and the golden age of experts has passed. A master whose
+                          disciples
+                          once were the most
+                          exalted Immortals among the 9 worlds had all left him. With his mortal body, mortal physique
+                          and
+                          mortal life wheel… he
+                          shall sweep the 9 worlds and take what is rightfully his.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+    </main>
+
+    <!-- TODO footer -->
+    <footer class="container-fluid mh-20 bg-grayishwhite border border-bottom-5">
+      <div class="row mh-20 flex-column justify-content-center align-items-center">
+        <div class="col-auto fade-In dog aa aa_s">
+          <h6 class="fw-bolder fs-1 fs-lg-1point25  text-center">
+            <span class="d-block mb-2">find an issue with this page? Fix it on <a class="text-dark"
+                href="https://github.com/CiprianoPrince/t10ln">GitHub</a></span>
+            <span class="d-block mb-2">Need help? Email <em>cipriano@mail.com</em></span>
+            <span class="d-block mb-2"><i class="bi bi-facebook"></i> | <i class="bi bi-twitter"></i> | <i
+                class="bi bi-reddit"></i> | <i class="bi bi-discord"></i> | <i class="bi bi-linkedin"></i> | <i
+                class="bi bi-github"></i></span>
+            <span class="d-block mb-2">Copyright &copy; 2023 Prince</span>
+          </h6>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

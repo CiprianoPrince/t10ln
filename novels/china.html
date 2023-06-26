@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/main.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../src/css/animate.min.css" />
+		<link rel="stylesheet" href="../src/css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="../src/css/scrollbar.min.css" />
+		<link rel="stylesheet" href="../src/css/style.css" />
+
+		<script defer src="../src/js/swiper/swiper-bundle.min.js"></script>
+		<script defer src="../src/js/bootstrap/bootstrap.bundle.min.js"></script>
+		<script defer src="./main.js" type="module"></script>
+		<title>T10LN</title>
+	</head>
+
+
+	<body class="">
+
+		<!-- fix sticky navigation  -->
+		<header class="container-fluid vh-10 sticky-top z-3 border border-3 border-bottom bg-grayishwhite" id="home">
+			<nav class="navbar navbar-expand-xxl w-100">
+				<div class="container-fluid p-3">
+					<!-- logo -->
+					<a class="navbar-brand text-dark aa fadeIn aa_s" href="../"><img src="../src/assets/logo.png" alt=""
+							class="bg-transparent mw-9"></a>
+
+					<!-- hamburger menu -->
+					<button class="navbar-toggler text-dark aa fadeIn aa_s" type="button" data-bs-toggle="collapse"
+						data-bs-target="#nav-buttons-links" aria-controls="nav-buttons-links" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse row text-dark" id="nav-buttons-links">
+						<!-- nav links -->
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Categories</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Action</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adult</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adventure</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Comedy</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Drama</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50 active-underline-green" href="#" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">Rankings</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="./japan.html">Japan</a></li>
+									<li><a class="dropdown-item" href="./korea.html">Korea</a></li>
+									<li><a class="dropdown-item" href="./china.html">China</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Community</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Quotes</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Top ten Collections</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Library</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!-- search input -->
+						<!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+						<!-- fix Sign up button -->
+						<!-- <a href="#" class="btn btn-outline-success navbar-brand text-success border-2">Sign up</a> -->
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!--TODO Top selling books section  -->
+			<section
+				class="container-fluid d-flex justify-content-center align-items-start g-5 fade-In fadeIn aa aa_s aa_d-1s">
+				<!-- All time title -->
+				<div class="container my-5">
+					<div class="row bg-grayishwhite text-dark p-4">
+						<div class="col-12">
+							<h2 class="ff-playfair fs-2point25 fs-md-2point50 fs-lg-4">China Top Novels</h2>
+
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb fw-bold ">
+									<li class="breadcrumb-item"><a class="text-secondary text-decoration-none"
+											href="../Index.html">Home</a></li>
+									<li class="breadcrumb-item"><a class="text-secondary text-decoration-none" href="#">Rankings</a></li>
+									<li class="breadcrumb-item active" aria-current="page"><a
+											class="text-secondary text-decoration-underline" href="">China</a></li>
+								</ol>
+							</nav>
+						</div>
+
+						<hr />
+
+						<div id="novels_list" class="col-12">
+							<div class="row">
+								<div id="" class="col-12">
+									<!-- data result -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/fda2e307051b2999609a0de2396a6eaa.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Emperor’s Domination</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">A boy that was imprisoned for millions of years has
+														regained a mortal body.
+
+														He became a disciple of the declining Cleansing Incense Ancient Sect where its patriarch
+														used to be his disciple. Now he
+														will bring this sect back to its former glory.
+
+														This is his journey to reach the apex and take revenge on those who had imprisoned him.
+
+														This is his story of meeting old friends and making new companions.
+
+														This is his path of traversing the Nine Worlds and becoming the next ruler of the Heavens.
+
+														Several millennia have passed and the golden age of experts has passed. A master whose
+														disciples once were the most
+														exalted Immortals among the 9 worlds had all left him. With his mortal body, mortal physique
+														and mortal life wheel… he
+														shall sweep the 9 worlds and take what is rightfully his.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/073e1db7b8a5b7a1b56fb1fdd2a7c826.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Martial World</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">In the Realm of the Gods, countless legends fought over
+														a mysterious
+														cube. After the battle, it disappeared into the
+														void. Lin Ming stumbles upon this mystery object and begins his journey to become a hero of
+														the land.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/d891d8c2cbebc5ea84a000c441a49dfb.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Sovereign of the Three Realms</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Jiang Chen, son of the Celestial Emperor, unexpectedly
+														reincarnated into the body of a despised young noble, thus
+														embarking on the path of the underdog trouncing all commoners. No one has the right to call
+														himself a genius in front of
+														Jiang Chen, as no one has a better understanding of the heavens than the son of the Heavenly
+														Emperor. “Genius? He who
+														adheres to me shall ascend. Those who oppose me can find solace in hell!”
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/ed4cbf7eee765c226e74e225c298cee1.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Against the Gods</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Mythical Abode Mountain, Cloud’s End Cliff, the most
+														dangerous of Azure Cloud Continent’s four deadly areas. Cloud’s End
+														Cliff’s base is known as the Grim Reaper’s Cemetery.
+
+														Over countless years, the number of people that have fallen off this cliff is too high to
+														count. None of them, even
+														three stronger than god masters, whose power could pierce the heavens, have been able to
+														return alive. However, a boy
+														that’s being chased by various people because he alone holds a priceless treasure jumps off
+														the cliff, but instead of
+														dying he wakes up in the body of a boy with the same name in another world!
+
+														This is the story of a boy wielding the Sky Poison Pearl, cultivating the strength to oppose
+														heaven and earth, a lord
+														overlooking the world!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/979b37667500cd67fd93e64fa794bd19.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The Desolate Era</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Fate had never been kind to Ji Ning. Wracked by
+														illnesses and infirm his entire life on Earth, Ji Ning knew early on
+														that he would die as a teenager. What he didn’t know was that there really was such a thing
+														as life after death and that
+														the multiverse was a far larger place than he thought.
+
+														A lucky twist of fate meant that Ji Ning was reborn into a world of Immortals and monsters,
+														of Ki Refiners and powerful
+														Fiendgods, a world where Dynasties lasted for millions of years. A world which is both
+														greater… and yet also smaller…
+														than he ever could imagine. He would have the opportunity to join them, and in this life, Ji
+														Ning swore to himself, he
+														would never let himself be weak again! The Era he was born into was a Desolate one, but Ji
+														Ning would make it his era.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/89c127fa18f80215178151d466b47466.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Release that Witch</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Fate had never been kind to Ji Ning. Wracked by
+														illnesses and infirm his entire life on Earth, Ji Ning knew early on
+														that he would die as a teenager. What he didn’t know was that there really was such a thing
+														as life after death and that
+														the multiverse was a far larger place than he thought.
+
+														A lucky twist of fate meant that Ji Ning was reborn into a world of Immortals and monsters,
+														of Ki Refiners and powerful
+														Fiendgods, a world where Dynasties lasted for millions of years. A world which is both
+														greater… and yet also smaller…
+														than he ever could imagine. He would have the opportunity to join them, and in this life, Ji
+														Ning swore to himself, he
+														would never let himself be weak again! The Era he was born into was a Desolate one, but Ji
+														Ning would make it his era.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/57b34224353c38f49a77f8185a10e744.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Warlock of the Magus World</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">When a futuristic scientist is transported into the
+														body of a young man in a fantasy world, his curiosity and desire for
+														power push him to pursue magic. In a world without mercy, Leylin has no qualms about doing
+														anything if it means
+														benefits. He is cold, ruthless and calculating, never forming attachments that could impede
+														his ultimate goal…
+
+														Honor? Who needs that… Hmmm… that guy seems too powerful for me to take on now… I better
+														keep a low profile for now.
+
+														You want me to help you? What do I get out of it? Nothing? Bye.
+
+														Hmm… that guy looks like he might cause me problems in the future. Better kill him before he
+														becomes a problem…
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/604f692b53829c98d4592c2b73d07f43.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">A Will Eternal</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">One will to create oceans. One will to summon the
+														mulberry fields.
+
+														One will to slaughter countless devils. One will to eradicate innumerable immortals.
+
+														Only my will… is eternal.
+
+														A Will Eternal tells the tale of Bai Xiaochun, an endearing but exasperating young man who
+														is driven primarily by his
+														fear of death and desire to live forever, but who deeply values friendship and family.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/china/5628954b8b8d9619048fd7c47af94aa5.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">I Shall Seal the Heavens</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">“What I want, the Heavens shall not lack!”
+
+														“What I don’t want, had better not exist under the Heavens!”
+
+														This is a story that originates between the Eighth and Ninth Mountains, the world in which
+														the strong prey
+														upon the
+														weak.
+
+														“My Name is Meng Hao! The Ninth Generation Demon Sealer, I shall seal the Heavens!”
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<!-- TODO footer -->
+		<footer class="container-fluid mh-20 bg-grayishwhite border border-bottom-5">
+			<div class="row mh-20 justify-content-center align-items-center">
+				<div class="col-auto">
+					<h6 class="fw-bolder fs-1 fs-lg-1point25 text-center">
+						<span class="d-block mb-2">find an issue with this page? Fix it on <a class="text-dark"
+								href="https://github.com/CiprianoPrince/t10ln">GitHub</a></span>
+						<span class="d-block mb-2">Need help? Email <em>cipriano@mail.com</em></span>
+						<span class="d-block mb-2">Courses | Labs | Snippets | Tags | Contrib | Privacy | Terms</span>
+						<span class="d-block mb-2">Copyright &copy; 2023 Prince</span>
+					</h6>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

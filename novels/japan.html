@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/main.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../src/css/animate.min.css" />
+		<link rel="stylesheet" href="../src/css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="../src/css/scrollbar.min.css" />
+		<link rel="stylesheet" href="../src/css/style.css" />
+
+		<script defer src="../src/js/swiper/swiper-bundle.min.js"></script>
+		<script defer src="../src/js/bootstrap/bootstrap.bundle.min.js"></script>
+		<script defer src="./main.js" type="module"></script>
+		<title>T10LN</title>
+	</head>
+
+
+	<body class="">
+
+		<!-- fix sticky navigation  -->
+		<header class="container-fluid vh-10 sticky-top z-3 border border-3 border-bottom bg-grayishwhite" id="home">
+			<nav class="navbar navbar-expand-xxl w-100">
+				<div class="container-fluid p-3">
+					<!-- logo -->
+					<a class="navbar-brand text-dark aa fadeIn aa_s" href="../"><img src="../src/assets/logo.png" alt=""
+							class="bg-transparent mw-9"></a>
+							
+					<!-- hamburger menu -->
+					<button class="navbar-toggler text-dark aa fadeIn aa_s" type="button" data-bs-toggle="collapse"
+						data-bs-target="#nav-buttons-links" aria-controls="nav-buttons-links" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse row text-dark" id="nav-buttons-links">
+						<!-- nav links -->
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Categories</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Action</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adult</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adventure</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Comedy</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Drama</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50 active-underline-green" href="#" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">Rankings</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="./japan.html">Japan</a></li>
+									<li><a class="dropdown-item" href="./korea.html">Korea</a></li>
+									<li><a class="dropdown-item" href="./china.html">China</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Community</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Quotes</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Top ten Collections</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Library</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!-- search input -->
+						<!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+						<!-- fix Sign up button -->
+						<!-- <a href="#" class="btn btn-outline-success navbar-brand text-success border-2">Sign up</a> -->
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!--TODO Top selling books section  -->
+			<section
+				class="container-fluid d-flex justify-content-center align-items-start g-5 fade-In fadeIn aa aa_s aa_d-1s">
+				<!-- All time title -->
+				<div class="container my-5">
+					<div class="row bg-grayishwhite text-dark p-4">
+						<div class="col-12">
+							<h2 class="ff-playfair fs-2point25 fs-md-2point50 fs-lg-4">Japan Top Novels</h2>
+
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb fw-bold ">
+									<li class="breadcrumb-item"><a class="text-secondary text-decoration" href="../Index.html">Home</a>
+									</li>
+									<li class="breadcrumb-item"><a class="text-secondary" href="#">Rankings</a></li>
+									<li class="breadcrumb-item active" aria-current="page"><a
+											class="text-secondary text-decoration-underline" href="">Japan</a></li>
+								</ol>
+							</nav>
+						</div>
+
+						<hr />
+
+						<div id="novels_list" class="col-12">
+							<div class="row">
+								<div id="" class="col-12">
+
+									<!-- No 1-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/151e648e04799e3fddf8555b3c027cf5.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The Death Mage Who Doesn’t Want a Fourth
+													Time</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Amamiya Hiroto is unlucky. His life consisted of
+														misfortune after misfortune, culminating in an unlucky death during an
+														incident on a school boat trip, trying to save a girl he barely knew. After death, he met a
+														god of reincarnation who
+														requested that the hundred or so dead passengers—one of them being the girl he tried in vain
+														to save—be reincarnated
+														into another world.
+
+														Yet a series of unfortunate events forced Hiroto to reincarnate with even less luck than
+														before, starting with nothing
+														but a tremendous amount of Mana. His second life, far worse than his first, came to a cruel
+														end.
+
+														However, upon meeting the god a second time, he was informed that there would be yet another
+														reincarnation—one that had
+														already been set in motion and could not be stopped. Not wanting Hiroto to live long, the
+														god cursed him before he was
+														reborn in the hopes that he would either die quickly or commit su*cide.
+
+														Hiroto was reborn once more as a half-Vampire, half-Dark Elf. A Dhampir. Not wanting a
+														fourth life, he is determined to
+														live this third life with the only things remaining from his previous lives—death-attribute
+														magic and his enormous Mana
+														pool.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 2-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/2922b8fdcf021136992aad5cb6afca6f.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Tsuki ga Michibiku Isekai Douchuu</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">High school student Misumi Makoto is called into a
+														fantasy world by the god Tsukuyomi, in order to be a hero. However,
+														the Goddess ruling the world isn’t as thrilled to have him there, and kicks him to the edge
+														of the world. Tsukuyomi
+														declares that Makoto is free to find his own way after Makoto is abandoned by the other
+														Goddess.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 3-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/0338d2a0c16501ee0726aac84e1ffef9.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The Man Picked Up By the Gods (Reboot)</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Adventure</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">One day, the life of middle-aged Japanese businessman
+														Takebayashi Ryouma came to a rather sudden and disappointing end.
+														Ryouma had never had a blessed life, but after his death, three great gods sought his
+														cooperation and reincarnated him
+														as a child in another world with swords and magic!
+
+														Receiving a most cordial and divine welcome from the gods, Ryouma decides to live leisurely
+														on his own in the forest for
+														the time being. Working diligently at magic and hunting, Ryouma’s greatest passion comes to
+														be researching his tamed
+														slimes?! Training a variety of slimes (some newly discovered), the curtain rises on this
+														easygoing life fantasy
+														celebrating a second life with kind people in another world!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 4 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/698538034f5c3160ccede02dbd607425.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Death March kara Hajimaru Isekai Kyusoukyoku
+													(WN)</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Suzuki, an adult programmer, suddenly notices that he’s
+														been thrown into a different world while wearing a casual
+														clothes at level 1. He gained high levels and treasures after using the 3 times
+														use-disposable-magic, Meteor Shower, at
+														once. After that he intends to do different world “sightseeing tours”?
+
+														He meets 3 beast girls, beautiful purple and black haired sisters, and an eccentric blonde
+														haired elf girl along with
+														various people during his trip. Although there are occasional fighting with demons and demon
+														lords, this is a
+														heartwarming fantasy story at heart.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 5 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/b49437e4c68a0c2afbc6c5bfee113a7c.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Isekai Yururi Kikou</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">A god was suddenly prostrating in front of Kayano
+														Takumi. He was apparently killed by mistake. Moreover, he can’t be
+														reborn again. However, he is able to live in a different world? Then, let’s do that, please.
+														The god made a mistake
+														again and transferred me into a dangerous forest. Seriously, what’s going on? Besides, there
+														are children here. I can’t
+														leave them here, I will take care of them.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 6 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/5e6bb0435b30dc665ed01ba6d611996a.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">I Was a Sword When I Reincarnated (WN)</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">I opened my eyes to find myself in another world. But
+														for some odd reason, I ended up as a sword. Before my eyes laid a
+														plain full of magic beasts, and so, I launched my body and flew in search of a partner, a
+														wielder (females only).
+
+														Wait. Absorbing magic stones gets me skills? Oh hell yeah! This will be fun! More, more,
+														give me more! Gimme all your
+														magic stones! Okay, yeah no, but I am accepting anything anyone’s willing to give.
+
+														This tale is one that follows your everyday nerd, normal as could be, save for the fact that
+														he happened to reincarnate
+														as a sword.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 7 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/1625414e2cdc37d93a3f3f5c9208c6da.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Kuma Kuma Kuma Bear</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Yuna, a 15 years old girl started playing the world’s
+														first VRMMO. She has earned billions of yen in stocks. She
+														confines herself in her house playing the game without going to school. Today, a huge update
+														has arrived. She obtains a
+														non-transferable rare bear outfit. But the equipment is so embarrassing that she can’t wear
+														it even in the game.
+														Furthermore, when she answers the survey regarding the new update and relaunches the game,
+														she appears in unknown forest
+														in a bear outfit. Where is this? Email from God? Different world? If she wears the bear
+														outfit she’s a cheat, if she
+														takes it off she’s a normal girl. Her adventure starts just like that. Yuna began doing as
+														she liked.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 8-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/9aaa33d7839d534121445b61fd63210a.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">A Demon Lord’s Tale: Dungeons, Monster
+													Girls, and Heartwarming Bliss</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">One day, I woke up only find out that I’d become a
+														Demon Lord, an individual responsible for protecting a dungeon. The
+														world I’d been spirited away to was one filled with violence. Gigantic monsters wandered
+														through it and competed with
+														each other each and every day for the right to survive. I had no choice but to strengthen my
+														dungeon’s defenses in hopes
+														of living another day—or at least that was what I’d thought. For some odd reason, I instead
+														ended up spending my days in
+														relaxation and bliss.
+
+														This is Yuki’s story, my story. It tells the tale of how I spent my days after settling down
+														in a dungeon with a self
+														indulgent, “supreme” dragon girl and a young vampire.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 9 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/af9ec032f194b4837bd6ca7f61bdeccc.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">I Was Caught up in a Hero Summoning, but
+													That World Is at Peace (WN)</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Comedy</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">It all happened so abruptly. After finally grasping my
+														situation, I found myself in an entirely different world. Looking
+														around, I noticed others in the same predicament… Could this possibly be one of those Hero
+														developments?
+
+														Was there a tyrannical Demon Lord needing extermination, or would I be tossed into the
+														maelstrom of war? Whatever it
+														was, I was afraid. I never wanted to be a Hero. I don’t want to harm another…… Ignore the
+														nonsense I was spouting; there
+														was nothing to fret over.
+
+														The Demon Lord was slain a thousand years ago, and 800 years had passed since the last war.
+														The nobles didn’t treat us
+														summoned like tr*sh; instead, we were kindly cared for. The Demons have been on good terms
+														with Humans for some time
+														now. Dangers, such as monsters, were being taken care of by the Guild and the Order of
+														Knights. What’s more surprising
+														is the fact that I wasn’t even a hero! Instead, I was unintentionally summoned!
+
+														It also turns out that this world was a world in which the three races, the Spirit World’s
+														Magical Races, the Celestial
+														World’s Divine Races, and the Mortal World’s Human Races, are kind neighbors. Here, everyone
+														lives a peaceful and
+														fulfilling life.
+
+														In summary, this other world was――at peace.
+
+														What’s my plan for the future? For my limited stay here, I will live this world to its
+														fullest; going on a cultural
+														exchange, sightseeing, then, after experiencing the festival that is only held once every
+														ten years, …… I shall safely
+														return home.
+
+														However, despite my lust for a peaceful last year before returning, this planet’s
+														heavyweights have begun amassing
+														around me, and……
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 10 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/japan/4b4927b71e2028ee7993249ad2de48f5.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Kumo Desu ga, Nani ka?</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">The world where the Hero and the Demon King continue to
+														oppose each other. The grand magic from the Hero and the Demon
+														King cross over worlds and exploded in the classroom of a certain high school.
+
+														The students who died in the explosion will be reincarnated in a different world. The
+														protagonist, who had the lowest
+														reputation in the class, was reincarnated into a spider. Nevertheless, she adapted quickly
+														to the present condition with
+														strong willpower.
+
+														This is a story of she who has become a spider trying whatever she can to live.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<!-- TODO footer -->
+		<footer class="container-fluid mh-20 bg-grayishwhite border border-bottom-5">
+			<div class="row mh-20 justify-content-center align-items-center">
+				<div class="col-auto">
+					<h6 class="fw-bolder fs-1 fs-lg-1point25 text-center">
+						<span class="d-block mb-2">find an issue with this page? Fix it on <a class="text-dark"
+								href="https://github.com/CiprianoPrince/t10ln">GitHub</a></span>
+						<span class="d-block mb-2">Need help? Email <em>cipriano@mail.com</em></span>
+						<span class="d-block mb-2">Courses | Labs | Snippets | Tags | Contrib | Privacy | Terms</span>
+						<span class="d-block mb-2">Copyright &copy; 2023 Prince</span>
+					</h6>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

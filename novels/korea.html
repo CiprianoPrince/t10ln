@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/main.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="../src/css/animate.min.css" />
+		<link rel="stylesheet" href="../src/css/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="../src/css/scrollbar.min.css" />
+		<link rel="stylesheet" href="../src/css/style.css" />
+
+		<script defer src="../src/js/swiper/swiper-bundle.min.js"></script>
+		<script defer src="../src/js/bootstrap/bootstrap.bundle.min.js"></script>
+		<script defer src="./main.js" type="module"></script>
+		<title>T10LN</title>
+	</head>
+
+
+	<body class="">
+
+		<!-- fix sticky navigation  -->
+		<header class="container-fluid vh-10 sticky-top z-3 border border-3 border-bottom bg-grayishwhite" id="home">
+			<nav class="navbar navbar-expand-xxl w-100">
+				<div class="container-fluid p-3">
+					<!-- logo -->
+					<a class="navbar-brand text-dark aa fadeIn aa_s" href="../"><img src="../src/assets/logo.png" alt=""
+							class="bg-transparent mw-9"></a>
+
+					<!-- hamburger menu -->
+					<button class="navbar-toggler text-dark aa fadeIn aa_s" type="button" data-bs-toggle="collapse"
+						data-bs-target="#nav-buttons-links" aria-controls="nav-buttons-links" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse row text-dark" id="nav-buttons-links">
+						<!-- nav links -->
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Categories</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Action</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adult</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Adventure</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Comedy</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Drama</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50 active-underline-green" href="#" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">Rankings</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="./japan.html">Japan</a></li>
+									<li><a class="dropdown-item" href="./korea.html">Korea</a></li>
+									<li><a class="dropdown-item" href="./china.html">China</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item dropdown aa fadeIn aa_s">
+								<a class="nav-link text-dark fs-lg-1point50" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">Community</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../fallback.html">Quotes</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Top ten Collections</a></li>
+									<li><a class="dropdown-item" href="../fallback.html">Library</a></li>
+								</ul>
+							</li>
+						</ul>
+
+						<!-- search input -->
+						<!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+						<!-- fix Sign up button -->
+						<!-- <a href="#" class="btn btn-outline-success navbar-brand text-success border-2">Sign up</a> -->
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!--TODO Top selling books section  -->
+			<section
+				class="container-fluid d-flex justify-content-center align-items-start g-5 fade-In fadeIn aa aa_s aa_d-1s">
+				<!-- All time title -->
+				<div class="container my-5">
+					<div class="row bg-grayishwhite text-dark p-4">
+						<div class="col-12">
+							<h2 class="ff-playfair fs-2point25 fs-md-2point50 fs-lg-4">Korea Top Novels</h2>
+
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb fw-bold ">
+									<li class="breadcrumb-item"><a class="text-secondary text-decoration" href="../Index.html">Home</a>
+									</li>
+									<li class="breadcrumb-item"><a class="text-secondary" href="#">Rankings</a></li>
+									<li class="breadcrumb-item active" aria-current="page"><a
+											class="text-secondary text-decoration-underline" href="">Korea</a></li>
+								</ol>
+							</nav>
+						</div>
+
+						<hr />
+
+						<div id="novels_list" class="col-12">
+							<div class="row">
+								<div id="" class="col-12">
+
+									<!-- No 1-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/28ceb303f3c05e097644fba16e3d0e87.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Overgeared</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">As Shin Youngwoo had an unfortunate life and is now
+														stuck carrying bricks on construction sites. He even had to do labor
+														in the most popular VR game, Satisfy!
+
+														However, luck would soon enter his hopeless life. His character, ‘Grid’, would discover the
+														Northern End Cave for a
+														quest, and in that place, he would find ‘Pagma’s Rare Book’ and will become a legend…
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 2-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/cb7ac6824d18b1ff3f4fd0de9f2cf473.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Trash of the Count’s Family</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">When I opened my eyes, I was inside a novel.
+
+														[The Birth of a Hero].
+														[The Birth of a Hero] was a novel focused on the adventures of the main character, Choi Han,
+														a high school boy who was
+														transported to a different dimension from Earth, along with the birth of the numerous heroes
+														of the continent.
+														I became a part of that novel as the tr*sh of the Count’s family, the family that oversaw
+														the territory where the first
+														village that Choi Han visits is located.
+
+														The problem is that Choi Han becomes twisted after that village, and everyone in it, is
+														destroyed by assassins.
+
+														The bigger problem is the fact that this s*upid tr*sh who I’ve become doesn’t know about
+														what happened in the village
+														and messes with Choi Han, only to get beaten to a pulp.
+
+														“…This is going to be a headache.”
+
+														I feel like something serious has happened to me.
+
+														But it was worth trying to make this my new life.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 3-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/1813e2220473481b58f803c5327b822f.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Everyone Else is a Returnee</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Yu Illhan was always the one left behind. Left out of
+														cliques in school. Left out of social invitations. Just…always
+														left out. Except now he’s been left behind for real.
+
+														When Earth’s future is threatened, Yu Illhan stays behind while the rest of the population
+														flees to other planets for
+														safety.
+
+														It’s up to Yu Illhan to save our planet before it’s too late!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 4 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/02a368ada4f37ffcd5b249ab3118f476.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The Second Coming of Gluttony</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">“The son of god Gula has returned.”hoo
+
+														I was lost in the world of gambling.
+
+														I turned my back on my family and even betrayed my lover.
+
+														I wasted every day of my life.
+
+														It was a life of tr*sh.
+
+														The reality told me thus:
+
+														That I would amount to nothing no matter what I did.
+
+														In order to change my pathetic life, I chose fantasy, instead.
+
+														Even then, it was the same story.
+
+														I wondered if salvation would come at the end of the long road.
+
+														But, I was forced to kneel down in defeat in front of a powerful entity.
+
+														The tower I built up with my own hands crumbled into nothingness.
+
+														Just for once, I dearly wished to know the truth about myself.
+
+														“Come closer, my child…”
+
+														I will not hold back this time.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 5 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/484276345c0cc71eb7e6a208d4148fa3.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The Novel’s Extra</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Waking up, Kim Hajin finds himself in a familiar world
+														but an unfamiliar body.
+
+														A world he created himself and a story he wrote, yet never finished.
+
+														He had become his novel’s extra, a filler character with no importance to the story.
+
+														The only clue to escaping is to stay close to the main storyline.
+
+														However, he soon finds out the world isn’t exactly identical to his creation.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 6 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/6da58577e25b5726468209282d1644a1.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">I Was a Sword When I Reincarnated (WN)</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">[‘Lightning Magic Primer’ has been consumed. Your
+														understanding is very high.] [The 2nd Circle magic ‘Lightning Bolt’
+														has been acquired.]
+														The unprecedented magician who will eat all the magic books of the world has appeared.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 7 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/33b57bae89b91eb7ae8be44b16eb7d68.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Infinite Competitive Dungeon Society</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">The story follows Kang Shin from South Korea, who is
+														raised on tales of fighting monsters by his eccentric father. One
+														day he learns it’s more than just a tale. Follow this brutish lad on his journey as Earth is
+														exposed to outside forces
+														and unparalleled existences.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 8-->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/272d1d0c2857f1dd45077e4a200e74b7.png" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Second Life Ranker</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">Yeon-woo had a twin brother who disappeared five years
+														ago. One day, a pocket watch left by his brother returned to his
+														possession. Inside, he found a hidden diary in which was recorded “By the time you hear
+														this, I guess I will be already
+														dead….”
+
+														Obelisk, the Tower of the Sun God, a world where several universes and dimensions intersect.
+														In this world, his brother
+														had fallen victim to betrayal while climbing up the tower. After learning the truth,
+														Yeon-woo decided to climb the tower
+														along with his brother’s diary.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 9 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/592a0797574f5721e392b364fe7c3b1a.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">The Tutorial Is Too Hard</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Comedy</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">On a normal boring day, a message appears, inviting him
+														to a Tutorial.
+
+														A tale about Lee Ho Jae and his escape from the Tutorial.
+
+														But he just happened to choose the hardest possible difficulty: Hell…
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+									<!-- No 10 -->
+									<div class="row">
+										<div
+											class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 text-center d-flex justify-content-center align-items-center">
+											<img src="../src/data/uploads/korea/2ed80eceae03e7000207fb5be0aa9e0d.jpeg" alt=""
+												class="img-fluid img-thumbnail">
+										</div>
+										<div class="col-12 col-sm-7 col-md-8 col-lg-9 col-xl-10">
+											<div class="row mb-2">
+												<h5 class="fw-bold text-success text-truncate mb-0">Seoul Station’s Necromancer</h5>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto"><span
+														class="badge bg-secondary text-truncate fw-lighter d-i">Action</span>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<div class="col-auto">
+													<p class="line-clamp-7 text-secondary">[You have entered the dungeon at Gwachun Station’s 1st
+														Exit.] When former high school student Kang Woojin finds himself
+														returned back to Earth after being forcibly summoned to a foreign planet for 20 years, he
+														soon finds that Earth is not
+														the same, normal place as he once remembered it to be.
+														With his former strength and age reset back to zero, watch Kang Woojin as he gets back on
+														the path to becoming the
+														Earth’s strongest Necromancer!
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<hr>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<!-- TODO footer -->
+		<footer class="container-fluid mh-20 bg-grayishwhite border border-bottom-5">
+			<div class="row mh-20 justify-content-center align-items-center">
+				<div class="col-auto">
+					<h6 class="fw-bolder fs-1 fs-lg-1point25 text-center">
+						<span class="d-block mb-2">find an issue with this page? Fix it on <a class="text-dark"
+								href="https://github.com/CiprianoPrince/t10ln">GitHub</a></span>
+						<span class="d-block mb-2">Need help? Email <em>cipriano@mail.com</em></span>
+						<span class="d-block mb-2">Courses | Labs | Snippets | Tags | Contrib | Privacy | Terms</span>
+						<span class="d-block mb-2">Copyright &copy; 2023 Prince</span>
+					</h6>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
